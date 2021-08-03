@@ -20,7 +20,7 @@ public class BaseTest {
         options.addArguments("start-maximized"); // teljes képernyőőben való használat
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
-        //options.addArguments("--headless");
+        options.addArguments("--headless");
         driver = new ChromeDriver(options);
         driver.get("https://forum.index.hu/");
 
