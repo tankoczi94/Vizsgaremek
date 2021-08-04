@@ -1,0 +1,39 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "LoginTest",
+    "children" : [ {
+      "name" : "logInTest",
+      "uid" : "f86c93679e67e2ae",
+      "parentUid" : "7cbde4e1492086c9f8631b2d4e369dc0",
+      "status" : "failed",
+      "time" : {
+        "start" : 1628103850992,
+        "stop" : 1628103869342,
+        "duration" : 18350
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7cbde4e1492086c9f8631b2d4e369dc0"
+  }, {
+    "name" : "PrivacyStatementTest",
+    "children" : [ {
+      "name" : "testPrivacyStatementContent",
+      "uid" : "2eb2dcca0dd4a95e",
+      "parentUid" : "15170690211807530dd3e6a4ec3c6fe9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628103869432,
+        "stop" : 1628103872899,
+        "duration" : 3467
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "15170690211807530dd3e6a4ec3c6fe9"
+  } ],
+  "name" : "packages"
+}

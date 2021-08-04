@@ -1,0 +1,21 @@
+[ {
+  "uid" : "f86c93679e67e2ae",
+  "name" : "logInTest()",
+  "time" : {
+    "start" : 1628103850992,
+    "stop" : 1628103869342,
+    "duration" : 18350
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2eb2dcca0dd4a95e",
+  "name" : "testPrivacyStatementContent()",
+  "time" : {
+    "start" : 1628103869432,
+    "stop" : 1628103872899,
+    "duration" : 3467
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

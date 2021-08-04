@@ -1,0 +1,26 @@
+{
+  "total" : 2,
+  "items" : [ {
+    "uid" : "b9a196f305ae86bf6bf452c18364a114",
+    "name" : "LoginTest",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "e896a5bd993d07af328fb7ff177118b3",
+    "name" : "PrivacyStatementTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}
