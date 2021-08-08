@@ -7,6 +7,8 @@ public class TopicPage {
     private WebDriver driver;
     private WebDriverWait wait;
     private By userNameField = By.xpath("//*[@id=\"leftcol\"]/div[1]/h4");
+    private By settingsButton = By.xpath("//a[.='Beállítások']");
+
     public TopicPage(WebDriver driver){
         this.driver = driver;
     }
@@ -15,5 +17,9 @@ public class TopicPage {
         wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOf(driver.findElement(userNameField)));
         return driver.findElement(userNameField).getText();
+    }
+    public SettingsPage clickOnSettings(){
+        driver.findElement(settingsButton).click();
+        return new SettingsPage(driver);
     }
 }

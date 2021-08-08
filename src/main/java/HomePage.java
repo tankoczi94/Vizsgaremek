@@ -23,6 +23,8 @@ public class HomePage {
     private By acceptPrivacyStatementButton = By.xpath("//*[@id=\"qc-cmp2-ui\"]/div[2]/div/button[2]");
     private By wrongUserNameOrPasswordIndicator = By.xpath("//*[contains(@class,'indpl_err_box')]");
     private By logOutButton = By.className("ahigh");
+    private By firstForumPageButton = By.xpath("//b[.='A Törzsasztal']");
+
 
     public HomePage(WebDriver driver){
         this.driver=driver;
@@ -81,8 +83,8 @@ public class HomePage {
         acceptPrivacyStatement();
         writeToUserNameField(logincredentials[0]);
         writeToPassWordField(logincredentials[1]);
-        TopicPage topicPage = clickLoginButton();
-        return topicPage;
+        clickLoginButton();
+        return new TopicPage(driver);
     }
     public boolean isThereLogInPanel(){
         boolean isLoginPanel = false;
@@ -91,4 +93,9 @@ public class HomePage {
         }
         return isLoginPanel;
     }
+    public ForumPage clickFirstForumPageButton(){
+        driver.findElement(firstForumPageButton).click();
+        return new ForumPage(driver);
+    }
+
 }

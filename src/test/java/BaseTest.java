@@ -17,7 +17,7 @@ public class BaseTest {
         //System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("start-maximized"); // teljes képernyőőben való használat
+        options.addArguments("start-maximized");
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
         //options.addArguments("--headless");
