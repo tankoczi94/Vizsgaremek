@@ -1,7 +1,12 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
 
 //fieldek az oldalon es methodok az interakciora, driver ide nem kell csak majd a testbe,
 // framework csak az interakcio static minden
@@ -16,6 +21,9 @@ public class HomePage {
     private By headerOfPrivacyStatement = By.xpath("//*[@id=\"qc-cmp2-ui\"]/div[1]/div/div/figure/h2");
     private By contentOfPrivacyStatement = By.xpath("//*[@id=\"qc-cmp2-ui\"]/div[1]/div/div/div");
     private By acceptPrivacyStatementButton = By.xpath("//*[@id=\"qc-cmp2-ui\"]/div[2]/div/button[2]");
+    private By wrongUserNameOrPasswordIndicator = By.xpath("//*[contains(@class,'indpl_err_box')]");
+    private By logOutButton = By.className("ahigh");
+
     public HomePage(WebDriver driver){
         this.driver=driver;
     }
@@ -41,5 +49,46 @@ public class HomePage {
         wait = new WebDriverWait(driver,5);
         wait.until(ExpectedConditions.visibilityOf(driver.findElement(privacyStatement)));
         driver.findElement(acceptPrivacyStatementButton).click();
+    }
+    public String getWrongUserNameErrorMessage(){
+        wait = new WebDriverWait(driver,5);
+        wait.until(ExpectedConditions.visibilityOf(driver.findElement(wrongUserNameOrPasswordIndicator)));
+        return driver.findElement(wrongUserNameOrPasswordIndicator).getText();
+    }
+    public LogOutPage logOut(){
+        wait = new WebDriverWait(driver,5);
+        WebElement logOutButtonWE = driver.findElement(logOutButton);
+        wait.until(ExpectedConditions.visibilityOf(logOutButtonWE));
+        logOutButtonWE.click();
+        return new LogOutPage(driver);
+    }
+    public String getUrl(){
+        return driver.getCurrentUrl();
+    }
+    public TopicPage logIn(){
+        String data="";
+        try {
+            File file = new File("logincredentials.txt");
+            Scanner scanner = new Scanner(file);
+            while (scanner.hasNextLine()){
+                data += scanner.nextLine()+" ";
+            }
+        } catch (FileNotFoundException e) {
+            System.err.println("There is no such file");
+            e.printStackTrace();
+        }
+        String[] logincredentials = data.split(" ");
+        acceptPrivacyStatement();
+        writeToUserNameField(logincredentials[0]);
+        writeToPassWordField(logincredentials[1]);
+        TopicPage topicPage = clickLoginButton();
+        return topicPage;
+    }
+    public boolean isThereLogInPanel(){
+        boolean isLoginPanel = false;
+        if(driver.findElement(emailField).isDisplayed()){
+            isLoginPanel = true;
+        }
+        return isLoginPanel;
     }
 }

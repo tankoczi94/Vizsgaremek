@@ -8,6 +8,19 @@ import java.util.Scanner;
 public class LoginTest extends BaseTest{
     @Test
     public void logInTest(){
+        TopicPage topicPage = homePage.logIn();
+        Assertions.assertEquals("tanko94", topicPage.getUserName());
+    }
+    @Test
+    public void logInNegativeTest(){
+        homePage.acceptPrivacyStatement();
+        homePage.writeToUserNameField("abc");
+        homePage.writeToPassWordField("123");
+        homePage.clickLoginButton();
+        Assertions.assertTrue(homePage.getWrongUserNameErrorMessage().contains("Hibás felhasználónév vagy jelszó!"));
+    }
+    @Test
+    public void validEmailInvalidPassword(){
         String data="";
         try {
             File file = new File("logincredentials.txt");
@@ -22,9 +35,9 @@ public class LoginTest extends BaseTest{
         String[] logincredentials = data.split(" ");
         homePage.acceptPrivacyStatement();
         homePage.writeToUserNameField(logincredentials[0]);
-        homePage.writeToPassWordField(logincredentials[1]);
-        //Valamiert nem veszi at a drivert azt megkelloldani vidikbol
-        TopicPage topicPage = homePage.clickLoginButton();
-        Assertions.assertEquals(topicPage.getUrlOfPage(),"https://forum.index.hu/Topic/showTopicList");
+        homePage.writeToPassWordField("123");
+        homePage.clickLoginButton();
+
+        Assertions.assertTrue(homePage.getWrongUserNameErrorMessage().contains("Hibás felhasználónév vagy jelszó!"));
     }
 }
