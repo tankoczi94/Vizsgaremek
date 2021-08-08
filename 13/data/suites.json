@@ -1,0 +1,95 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "LogOutTest",
+    "children" : [ {
+      "name" : "navigateBackTest()",
+      "uid" : "b55b133e7b51a68d",
+      "parentUid" : "1d3ab28ec8b01cd119db770e9466906d",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628406120948,
+        "stop" : 1628406127576,
+        "duration" : 6628
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "logOutTest()",
+      "uid" : "4ebbda65bbd50ec1",
+      "parentUid" : "1d3ab28ec8b01cd119db770e9466906d",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628406127673,
+        "stop" : 1628406127841,
+        "duration" : 168
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "1d3ab28ec8b01cd119db770e9466906d"
+  }, {
+    "name" : "LoginTest",
+    "children" : [ {
+      "name" : "logInNegativeTest()",
+      "uid" : "6202d30000ada490",
+      "parentUid" : "b9a196f305ae86bf6bf452c18364a114",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628406127853,
+        "stop" : 1628406128052,
+        "duration" : 199
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "validEmailInvalidPassword()",
+      "uid" : "a72df861ab466072",
+      "parentUid" : "b9a196f305ae86bf6bf452c18364a114",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628406128059,
+        "stop" : 1628406128222,
+        "duration" : 163
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "logInTest()",
+      "uid" : "4ef54378fd5a416e",
+      "parentUid" : "b9a196f305ae86bf6bf452c18364a114",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628406128231,
+        "stop" : 1628406128420,
+        "duration" : 189
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b9a196f305ae86bf6bf452c18364a114"
+  }, {
+    "name" : "PrivacyStatementTest",
+    "children" : [ {
+      "name" : "testPrivacyStatementContent()",
+      "uid" : "3d969c8f2aeccb64",
+      "parentUid" : "e896a5bd993d07af328fb7ff177118b3",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628406128444,
+        "stop" : 1628406128615,
+        "duration" : 171
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e896a5bd993d07af328fb7ff177118b3"
+  } ],
+  "name" : "suites"
+}

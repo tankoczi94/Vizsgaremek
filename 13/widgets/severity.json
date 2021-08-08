@@ -1,0 +1,61 @@
+[ {
+  "uid" : "6202d30000ada490",
+  "name" : "logInNegativeTest()",
+  "time" : {
+    "start" : 1628406127853,
+    "stop" : 1628406128052,
+    "duration" : 199
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4ef54378fd5a416e",
+  "name" : "logInTest()",
+  "time" : {
+    "start" : 1628406128231,
+    "stop" : 1628406128420,
+    "duration" : 189
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3d969c8f2aeccb64",
+  "name" : "testPrivacyStatementContent()",
+  "time" : {
+    "start" : 1628406128444,
+    "stop" : 1628406128615,
+    "duration" : 171
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b55b133e7b51a68d",
+  "name" : "navigateBackTest()",
+  "time" : {
+    "start" : 1628406120948,
+    "stop" : 1628406127576,
+    "duration" : 6628
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4ebbda65bbd50ec1",
+  "name" : "logOutTest()",
+  "time" : {
+    "start" : 1628406127673,
+    "stop" : 1628406127841,
+    "duration" : 168
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a72df861ab466072",
+  "name" : "validEmailInvalidPassword()",
+  "time" : {
+    "start" : 1628406128059,
+    "stop" : 1628406128222,
+    "duration" : 163
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

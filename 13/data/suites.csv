@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Sun Aug 08 07:02:07 GMT 2021","Sun Aug 08 07:02:07 GMT 2021","168","","LogOutTest","","LogOutTest","logOutTest","logOutTest()",""
+"broken","Sun Aug 08 07:02:00 GMT 2021","Sun Aug 08 07:02:07 GMT 2021","6628","","LogOutTest","","LogOutTest","navigateBackTest","navigateBackTest()",""
+"broken","Sun Aug 08 07:02:08 GMT 2021","Sun Aug 08 07:02:08 GMT 2021","171","","PrivacyStatementTest","","PrivacyStatementTest","testPrivacyStatementContent","testPrivacyStatementContent()",""
+"broken","Sun Aug 08 07:02:08 GMT 2021","Sun Aug 08 07:02:08 GMT 2021","189","","LoginTest","","LoginTest","logInTest","logInTest()",""
+"broken","Sun Aug 08 07:02:08 GMT 2021","Sun Aug 08 07:02:08 GMT 2021","163","","LoginTest","","LoginTest","validEmailInvalidPassword","validEmailInvalidPassword()",""
+"broken","Sun Aug 08 07:02:07 GMT 2021","Sun Aug 08 07:02:08 GMT 2021","199","","LoginTest","","LoginTest","logInNegativeTest","logInNegativeTest()",""

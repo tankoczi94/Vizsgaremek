@@ -1,0 +1,95 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "LogOutTest",
+    "children" : [ {
+      "name" : "navigateBackTest",
+      "uid" : "b55b133e7b51a68d",
+      "parentUid" : "2b4e484c2ab376677af44991ebd37a53",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628406120948,
+        "stop" : 1628406127576,
+        "duration" : 6628
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "logOutTest",
+      "uid" : "4ebbda65bbd50ec1",
+      "parentUid" : "2b4e484c2ab376677af44991ebd37a53",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628406127673,
+        "stop" : 1628406127841,
+        "duration" : 168
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2b4e484c2ab376677af44991ebd37a53"
+  }, {
+    "name" : "LoginTest",
+    "children" : [ {
+      "name" : "logInNegativeTest",
+      "uid" : "6202d30000ada490",
+      "parentUid" : "7cbde4e1492086c9f8631b2d4e369dc0",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628406127853,
+        "stop" : 1628406128052,
+        "duration" : 199
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "validEmailInvalidPassword",
+      "uid" : "a72df861ab466072",
+      "parentUid" : "7cbde4e1492086c9f8631b2d4e369dc0",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628406128059,
+        "stop" : 1628406128222,
+        "duration" : 163
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "logInTest",
+      "uid" : "4ef54378fd5a416e",
+      "parentUid" : "7cbde4e1492086c9f8631b2d4e369dc0",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628406128231,
+        "stop" : 1628406128420,
+        "duration" : 189
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7cbde4e1492086c9f8631b2d4e369dc0"
+  }, {
+    "name" : "PrivacyStatementTest",
+    "children" : [ {
+      "name" : "testPrivacyStatementContent",
+      "uid" : "3d969c8f2aeccb64",
+      "parentUid" : "15170690211807530dd3e6a4ec3c6fe9",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628406128444,
+        "stop" : 1628406128615,
+        "duration" : 171
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "15170690211807530dd3e6a4ec3c6fe9"
+  } ],
+  "name" : "packages"
+}
