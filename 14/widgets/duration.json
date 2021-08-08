@@ -1,0 +1,101 @@
+[ {
+  "uid" : "fbdf864dae19e317",
+  "name" : "testPrivacyStatementContent()",
+  "time" : {
+    "start" : 1628414945707,
+    "stop" : 1628414945861,
+    "duration" : 154
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "36954f3c9501729c",
+  "name" : "listElements()",
+  "time" : {
+    "start" : 1628414944487,
+    "stop" : 1628414944652,
+    "duration" : 165
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6a44dfc6cfc264fb",
+  "name" : "logInNegativeTest()",
+  "time" : {
+    "start" : 1628414945015,
+    "stop" : 1628414945172,
+    "duration" : 157
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "763e1774e30081d7",
+  "name" : "logOutTest()",
+  "time" : {
+    "start" : 1628414944860,
+    "stop" : 1628414945008,
+    "duration" : 148
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8ef47f146849a6dc",
+  "name" : "navigateBackTest()",
+  "time" : {
+    "start" : 1628414944663,
+    "stop" : 1628414944855,
+    "duration" : 192
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "62bbb0c784bd3a08",
+  "name" : "validEmailInvalidPassword()",
+  "time" : {
+    "start" : 1628414945182,
+    "stop" : 1628414945353,
+    "duration" : 171
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "483593aa144c35a6",
+  "name" : "logInTest()",
+  "time" : {
+    "start" : 1628414945363,
+    "stop" : 1628414945515,
+    "duration" : 152
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "10d5709ee4ab26ed",
+  "name" : "scrollThreeTimesTest()",
+  "time" : {
+    "start" : 1628414944309,
+    "stop" : 1628414944481,
+    "duration" : 172
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5a361e1e9b96e277",
+  "name" : "testInputField()",
+  "time" : {
+    "start" : 1628414945525,
+    "stop" : 1628414945696,
+    "duration" : 171
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "827869f6c589d3c5",
+  "name" : "scrollBiggerThanActual()",
+  "time" : {
+    "start" : 1628414938077,
+    "stop" : 1628414944227,
+    "duration" : 6150
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

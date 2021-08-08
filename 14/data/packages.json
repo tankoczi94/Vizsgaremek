@@ -1,0 +1,155 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "ForumTest",
+    "children" : [ {
+      "name" : "scrollBiggerThanActual",
+      "uid" : "827869f6c589d3c5",
+      "parentUid" : "76a4ce648b26d6fc84b64f130eee4678",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628414938077,
+        "stop" : 1628414944227,
+        "duration" : 6150
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "scrollThreeTimesTest",
+      "uid" : "10d5709ee4ab26ed",
+      "parentUid" : "76a4ce648b26d6fc84b64f130eee4678",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628414944309,
+        "stop" : 1628414944481,
+        "duration" : 172
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "listElements",
+      "uid" : "36954f3c9501729c",
+      "parentUid" : "76a4ce648b26d6fc84b64f130eee4678",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628414944487,
+        "stop" : 1628414944652,
+        "duration" : 165
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "76a4ce648b26d6fc84b64f130eee4678"
+  }, {
+    "name" : "LogOutTest",
+    "children" : [ {
+      "name" : "navigateBackTest",
+      "uid" : "8ef47f146849a6dc",
+      "parentUid" : "2b4e484c2ab376677af44991ebd37a53",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628414944663,
+        "stop" : 1628414944855,
+        "duration" : 192
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "logOutTest",
+      "uid" : "763e1774e30081d7",
+      "parentUid" : "2b4e484c2ab376677af44991ebd37a53",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628414944860,
+        "stop" : 1628414945008,
+        "duration" : 148
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2b4e484c2ab376677af44991ebd37a53"
+  }, {
+    "name" : "LoginTest",
+    "children" : [ {
+      "name" : "logInNegativeTest",
+      "uid" : "6a44dfc6cfc264fb",
+      "parentUid" : "7cbde4e1492086c9f8631b2d4e369dc0",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628414945015,
+        "stop" : 1628414945172,
+        "duration" : 157
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "validEmailInvalidPassword",
+      "uid" : "62bbb0c784bd3a08",
+      "parentUid" : "7cbde4e1492086c9f8631b2d4e369dc0",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628414945182,
+        "stop" : 1628414945353,
+        "duration" : 171
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "logInTest",
+      "uid" : "483593aa144c35a6",
+      "parentUid" : "7cbde4e1492086c9f8631b2d4e369dc0",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628414945363,
+        "stop" : 1628414945515,
+        "duration" : 152
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7cbde4e1492086c9f8631b2d4e369dc0"
+  }, {
+    "name" : "SettingsPageTest",
+    "children" : [ {
+      "name" : "testInputField",
+      "uid" : "5a361e1e9b96e277",
+      "parentUid" : "8e48b3594ebd42e50ada44c196fe55a6",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628414945525,
+        "stop" : 1628414945696,
+        "duration" : 171
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8e48b3594ebd42e50ada44c196fe55a6"
+  }, {
+    "name" : "PrivacyStatementTest",
+    "children" : [ {
+      "name" : "testPrivacyStatementContent",
+      "uid" : "fbdf864dae19e317",
+      "parentUid" : "15170690211807530dd3e6a4ec3c6fe9",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628414945707,
+        "stop" : 1628414945861,
+        "duration" : 154
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "15170690211807530dd3e6a4ec3c6fe9"
+  } ],
+  "name" : "packages"
+}
