@@ -1,0 +1,101 @@
+[ {
+  "uid" : "29de421f62426892",
+  "name" : "logInTest()",
+  "time" : {
+    "start" : 1628688928791,
+    "stop" : 1628688928934,
+    "duration" : 143
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "19abbe2bb9f57ae2",
+  "name" : "testPrivacyStatementContent()",
+  "time" : {
+    "start" : 1628688929118,
+    "stop" : 1628688929276,
+    "duration" : 158
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4c62e75ee36778e3",
+  "name" : "validEmailInvalidPassword()",
+  "time" : {
+    "start" : 1628688928628,
+    "stop" : 1628688928788,
+    "duration" : 160
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2961f02fd36687d2",
+  "name" : "listElements()",
+  "time" : {
+    "start" : 1628688927935,
+    "stop" : 1628688928083,
+    "duration" : 148
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e830b2e56d9e7674",
+  "name" : "logInNegativeTest()",
+  "time" : {
+    "start" : 1628688928480,
+    "stop" : 1628688928622,
+    "duration" : 142
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "20c6aebbbc983618",
+  "name" : "logOutTest()",
+  "time" : {
+    "start" : 1628688928312,
+    "stop" : 1628688928453,
+    "duration" : 141
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b02125106deb375c",
+  "name" : "scrollBiggerThanActual()",
+  "time" : {
+    "start" : 1628688920634,
+    "stop" : 1628688927647,
+    "duration" : 7013
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ec43d4991da4a5dd",
+  "name" : "navigateBackTest()",
+  "time" : {
+    "start" : 1628688928106,
+    "stop" : 1628688928305,
+    "duration" : 199
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6cd15a14cc999036",
+  "name" : "scrollThreeTimesTest()",
+  "time" : {
+    "start" : 1628688927724,
+    "stop" : 1628688927917,
+    "duration" : 193
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e401c3340a34027f",
+  "name" : "testInputField()",
+  "time" : {
+    "start" : 1628688928961,
+    "stop" : 1628688929113,
+    "duration" : 152
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
