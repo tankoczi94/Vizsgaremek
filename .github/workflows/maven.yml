@@ -1,9 +1,9 @@
-name: Java CI with Maven use Selenium and Allure report
+name: Generate allure report
 
 on: push
 
 jobs:
-  autotests:
+  test:
     name: Run tests and generate Allure Report
     runs-on: ubuntu-latest
     steps:
