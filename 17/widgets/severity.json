@@ -1,0 +1,101 @@
+[ {
+  "uid" : "eff479457d3ff6ab",
+  "name" : "logInNegativeTest()",
+  "time" : {
+    "start" : 1628689145421,
+    "stop" : 1628689152186,
+    "duration" : 6765
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "27752225152c65e3",
+  "name" : "validEmailInvalidPassword()",
+  "time" : {
+    "start" : 1628689152192,
+    "stop" : 1628689160311,
+    "duration" : 8119
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b317b359e5117a70",
+  "name" : "scrollBiggerThanActual()",
+  "time" : {
+    "start" : 1628689097057,
+    "stop" : 1628689109534,
+    "duration" : 12477
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b83b978050be4b67",
+  "name" : "navigateBackTest()",
+  "time" : {
+    "start" : 1628689120962,
+    "stop" : 1628689134250,
+    "duration" : 13288
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1684d8a13af0dfd3",
+  "name" : "testInputField()",
+  "time" : {
+    "start" : 1628689168702,
+    "stop" : 1628689177368,
+    "duration" : 8666
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "110fc73477d84d73",
+  "name" : "logInTest()",
+  "time" : {
+    "start" : 1628689160313,
+    "stop" : 1628689168699,
+    "duration" : 8386
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4e4d09a63cbbed1b",
+  "name" : "logOutTest()",
+  "time" : {
+    "start" : 1628689134253,
+    "stop" : 1628689145417,
+    "duration" : 11164
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "476d6aa309c56216",
+  "name" : "testPrivacyStatementContent()",
+  "time" : {
+    "start" : 1628689177374,
+    "stop" : 1628689182535,
+    "duration" : 5161
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "180d230e1d287afe",
+  "name" : "listElements()",
+  "time" : {
+    "start" : 1628689115279,
+    "stop" : 1628689120955,
+    "duration" : 5676
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7833deb06f510d27",
+  "name" : "scrollThreeTimesTest()",
+  "time" : {
+    "start" : 1628689109602,
+    "stop" : 1628689115272,
+    "duration" : 5670
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
