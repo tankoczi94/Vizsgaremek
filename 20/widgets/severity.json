@@ -1,0 +1,101 @@
+[ {
+  "uid" : "d876d53ae3de5957",
+  "name" : "scrollBiggerThanActual()",
+  "time" : {
+    "start" : 1629139907261,
+    "stop" : 1629139910152,
+    "duration" : 2891
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "99b343cd5cbdf606",
+  "name" : "listElements()",
+  "time" : {
+    "start" : 1629139910408,
+    "stop" : 1629139910552,
+    "duration" : 144
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "917e92e8cf771b1a",
+  "name" : "scrollThreeTimesTest()",
+  "time" : {
+    "start" : 1629139910247,
+    "stop" : 1629139910403,
+    "duration" : 156
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "749c19d0809067cb",
+  "name" : "testInputField()",
+  "time" : {
+    "start" : 1629139911363,
+    "stop" : 1629139911502,
+    "duration" : 139
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3c30b6c2f4f4b30b",
+  "name" : "navigateBackTest()",
+  "time" : {
+    "start" : 1629139910563,
+    "stop" : 1629139910737,
+    "duration" : 174
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "520ff988245788c",
+  "name" : "logInTest()",
+  "time" : {
+    "start" : 1629139911219,
+    "stop" : 1629139911359,
+    "duration" : 140
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1d15150efaf9b88c",
+  "name" : "validEmailInvalidPassword()",
+  "time" : {
+    "start" : 1629139911050,
+    "stop" : 1629139911215,
+    "duration" : 165
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2c3a86d63528ec4a",
+  "name" : "logInNegativeTest()",
+  "time" : {
+    "start" : 1629139910898,
+    "stop" : 1629139911045,
+    "duration" : 147
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8b40e297543df122",
+  "name" : "logOutTest()",
+  "time" : {
+    "start" : 1629139910745,
+    "stop" : 1629139910884,
+    "duration" : 139
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c08e584aa5999bf0",
+  "name" : "testPrivacyStatementContent()",
+  "time" : {
+    "start" : 1629139911510,
+    "stop" : 1629139911655,
+    "duration" : 145
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
