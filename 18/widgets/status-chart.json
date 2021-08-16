@@ -1,0 +1,101 @@
+[ {
+  "uid" : "3e7af5c624628e9d",
+  "name" : "listElements()",
+  "time" : {
+    "start" : 1629135072659,
+    "stop" : 1629135072824,
+    "duration" : 165
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "278d7ba99a207e2b",
+  "name" : "testInputField()",
+  "time" : {
+    "start" : 1629135073737,
+    "stop" : 1629135073917,
+    "duration" : 180
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "db51d5ea56d625a5",
+  "name" : "testPrivacyStatementContent()",
+  "time" : {
+    "start" : 1629135073927,
+    "stop" : 1629135074104,
+    "duration" : 177
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "dbedff3ecf8143de",
+  "name" : "validEmailInvalidPassword()",
+  "time" : {
+    "start" : 1629135073404,
+    "stop" : 1629135073567,
+    "duration" : 163
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "19cf437262461e",
+  "name" : "scrollThreeTimesTest()",
+  "time" : {
+    "start" : 1629135072499,
+    "stop" : 1629135072651,
+    "duration" : 152
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "70a17d213f0ba874",
+  "name" : "logInTest()",
+  "time" : {
+    "start" : 1629135073577,
+    "stop" : 1629135073729,
+    "duration" : 152
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "fed643493d945ea3",
+  "name" : "scrollBiggerThanActual()",
+  "time" : {
+    "start" : 1629135069466,
+    "stop" : 1629135072389,
+    "duration" : 2923
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "fd32695a0a66675",
+  "name" : "navigateBackTest()",
+  "time" : {
+    "start" : 1629135072837,
+    "stop" : 1629135073050,
+    "duration" : 213
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "331dc3a23a103924",
+  "name" : "logOutTest()",
+  "time" : {
+    "start" : 1629135073056,
+    "stop" : 1629135073204,
+    "duration" : 148
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8fc88dd275701383",
+  "name" : "logInNegativeTest()",
+  "time" : {
+    "start" : 1629135073230,
+    "stop" : 1629135073399,
+    "duration" : 169
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
