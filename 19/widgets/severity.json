@@ -1,0 +1,101 @@
+[ {
+  "uid" : "bbdf56efe74f53e9",
+  "name" : "logOutTest()",
+  "time" : {
+    "start" : 1629135213327,
+    "stop" : 1629135224683,
+    "duration" : 11356
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "587952e8bb90a5ba",
+  "name" : "validEmailInvalidPassword()",
+  "time" : {
+    "start" : 1629135233203,
+    "stop" : 1629135241563,
+    "duration" : 8360
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "76836f325ff90f58",
+  "name" : "scrollThreeTimesTest()",
+  "time" : {
+    "start" : 1629135187595,
+    "stop" : 1629135193575,
+    "duration" : 5980
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e99edb315a1b47d",
+  "name" : "testInputField()",
+  "time" : {
+    "start" : 1629135250273,
+    "stop" : 1629135259121,
+    "duration" : 8848
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e095533f1434d859",
+  "name" : "testPrivacyStatementContent()",
+  "time" : {
+    "start" : 1629135259136,
+    "stop" : 1629135264437,
+    "duration" : 5301
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7bf42b8525fd0fd2",
+  "name" : "navigateBackTest()",
+  "time" : {
+    "start" : 1629135199469,
+    "stop" : 1629135213324,
+    "duration" : 13855
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8363391fc4bad136",
+  "name" : "scrollBiggerThanActual()",
+  "time" : {
+    "start" : 1629135174905,
+    "stop" : 1629135187513,
+    "duration" : 12608
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "17bd09f2201187cf",
+  "name" : "logInTest()",
+  "time" : {
+    "start" : 1629135241565,
+    "stop" : 1629135250269,
+    "duration" : 8704
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "97bcf3ebdc7876e2",
+  "name" : "logInNegativeTest()",
+  "time" : {
+    "start" : 1629135224690,
+    "stop" : 1629135233199,
+    "duration" : 8509
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4cff383260d4ba4f",
+  "name" : "listElements()",
+  "time" : {
+    "start" : 1629135193580,
+    "stop" : 1629135199454,
+    "duration" : 5874
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

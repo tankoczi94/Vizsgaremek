@@ -1,0 +1,81 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//td[@id='maintd']/form[1]//img[@alt='>>']\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az82-699', ip: '10.1.0.59', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.CjYNJU}, goog:chromeOptions: {debuggerAddress: localhost:36761}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 04b0cb5730a2b9118c3573587be41657\n*** Element info: {Using=xpath, value=//td[@id='maintd']/form[1]//img[@alt='>>']}",
+      "children" : [ {
+        "name" : "scrollBiggerThanActual()",
+        "uid" : "8363391fc4bad136",
+        "parentUid" : "f85744fb73e600ef3d0aec9208db183f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629135174905,
+          "stop" : 1629135187513,
+          "duration" : 12608
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f85744fb73e600ef3d0aec9208db183f"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//td[@id='maintd']/form[1]//img[@alt='>>']\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az82-699', ip: '10.1.0.59', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.FF1o44}, goog:chromeOptions: {debuggerAddress: localhost:39649}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: ac5b84b58a91600ecd65ebc36edb8037\n*** Element info: {Using=xpath, value=//td[@id='maintd']/form[1]//img[@alt='>>']}",
+      "children" : [ {
+        "name" : "scrollThreeTimesTest()",
+        "uid" : "76836f325ff90f58",
+        "parentUid" : "8d16a1520a7f9a249b444bb4324a1a5b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629135187595,
+          "stop" : 1629135193575,
+          "duration" : 5980
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8d16a1520a7f9a249b444bb4324a1a5b"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//textarea[@name='introduction']\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az82-699', ip: '10.1.0.59', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.XViC3c}, goog:chromeOptions: {debuggerAddress: localhost:39035}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b502bf074f39b5406fcc731bc9a16689\n*** Element info: {Using=xpath, value=//textarea[@name='introduction']}",
+      "children" : [ {
+        "name" : "testInputField()",
+        "uid" : "e99edb315a1b47d",
+        "parentUid" : "145bd9df7877990405481e1f3cf1c6d6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629135250273,
+          "stop" : 1629135259121,
+          "duration" : 8848
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "145bd9df7877990405481e1f3cf1c6d6"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected: <10> but was: <0>",
+      "children" : [ {
+        "name" : "listElements()",
+        "uid" : "4cff383260d4ba4f",
+        "parentUid" : "0e155acc1197fe7a94f7c0515077920f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629135193580,
+          "stop" : 1629135199454,
+          "duration" : 5874
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0e155acc1197fe7a94f7c0515077920f"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
