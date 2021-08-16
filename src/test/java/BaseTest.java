@@ -17,10 +17,10 @@ public class BaseTest {
         //System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("start-maximized");
+        options.addArguments("--start-maximized");
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
-        options.addArguments("--headless");
+        //options.addArguments("--headless");
         options.addArguments("--incognito");
         driver = new ChromeDriver(options);
         driver.get("https://forum.index.hu/");
@@ -32,7 +32,7 @@ public class BaseTest {
     }
     @AfterEach
     public void tearDown(){
-        driver.quit();
+        //driver.quit();
     }
 
     public static void main(String[] args) {

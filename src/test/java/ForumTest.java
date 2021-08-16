@@ -10,7 +10,9 @@ public class ForumTest extends BaseTest{
         homePage.acceptPrivacyStatement();
         ForumPage forumPage = homePage.clickFirstForumPageButton();
         String[] data = forumPage.listData();
-        Assertions.assertTrue(forumPage.findElement(compare,data));
+
+        Assertions.assertEquals(compare.length,data.length);
+
     }
     @Test
     public void scrollThreeTimesTest(){
