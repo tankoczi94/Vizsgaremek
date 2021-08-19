@@ -1,0 +1,178 @@
+{
+  "uid" : "f065ba7f8c59336c",
+  "name" : "scrollBiggerThanActual()",
+  "fullName" : "ForumTest.scrollBiggerThanActual",
+  "historyId" : "44122c1c0f87a6a5e1cbcd5d8300da99",
+  "time" : {
+    "start" : 1629364225147,
+    "stop" : 1629364260267,
+    "duration" : 35120
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1629364225172,
+      "stop" : 1629364256904,
+      "duration" : 31732
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629364259988,
+      "stop" : 1629364260259,
+      "duration" : 271
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az83-802"
+  }, {
+    "name" : "thread",
+    "value" : "2965@fv-az83-802.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ForumTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ForumTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "scrollBiggerThanActual"
+  }, {
+    "name" : "suite",
+    "value" : "ForumTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 8,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "52f9f3375435e89c",
+        "reportUrl" : "https://tankoczi94.github.io/Vizsgaremek/21//#testresult/52f9f3375435e89c",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//td[@id='maintd']/form[1]//img[@alt='>>']\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-229', ip: '10.1.0.128', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.2hkiCb}, goog:chromeOptions: {debuggerAddress: localhost:38477}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3891ab46d3c31013ab29296522943d8b\n*** Element info: {Using=xpath, value=//td[@id='maintd']/form[1]//img[@alt='>>']}",
+        "time" : {
+          "start" : 1629350719202,
+          "stop" : 1629350752806,
+          "duration" : 33604
+        }
+      }, {
+        "uid" : "d876d53ae3de5957",
+        "reportUrl" : "https://tankoczi94.github.io/Vizsgaremek/20//#testresult/d876d53ae3de5957",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az82-699', ip: '10.1.0.104', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x565133541a63 <unknown>\n#1 0x5651332b6458 <unknown>\n#2 0x5651332d92e3 <unknown>\n#3 0x5651332d4e9f <unknown>\n#4 0x56513330eb72 <unknown>\n#5 0x565133308fd3 <unknown>\n#6 0x5651332df514 <unknown>\n#7 0x5651332e0505 <unknown>\n#8 0x56513356de2e <unknown>\n#9 0x565133583886 <unknown>\n#10 0x56513356ed75 <unknown>\n#11 0x565133584d94 <unknown>\n#12 0x5651335658eb <unknown>\n#13 0x56513359fcd8 <unknown>\n#14 0x56513359fe58 <unknown>\n#15 0x5651335b9dfd <unknown>\n#16 0x7f89675b7609 start_thread\n",
+        "time" : {
+          "start" : 1629139907261,
+          "stop" : 1629139910152,
+          "duration" : 2891
+        }
+      }, {
+        "uid" : "8363391fc4bad136",
+        "reportUrl" : "https://tankoczi94.github.io/Vizsgaremek/19//#testresult/8363391fc4bad136",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//td[@id='maintd']/form[1]//img[@alt='>>']\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az82-699', ip: '10.1.0.59', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.CjYNJU}, goog:chromeOptions: {debuggerAddress: localhost:36761}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 04b0cb5730a2b9118c3573587be41657\n*** Element info: {Using=xpath, value=//td[@id='maintd']/form[1]//img[@alt='>>']}",
+        "time" : {
+          "start" : 1629135174905,
+          "stop" : 1629135187513,
+          "duration" : 12608
+        }
+      }, {
+        "uid" : "fed643493d945ea3",
+        "reportUrl" : "https://tankoczi94.github.io/Vizsgaremek/18//#testresult/fed643493d945ea3",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az47-628', ip: '10.1.0.206', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x56428c0c8a63 <unknown>\n#1 0x56428be3d458 <unknown>\n#2 0x56428be602e3 <unknown>\n#3 0x56428be5be9f <unknown>\n#4 0x56428be95b72 <unknown>\n#5 0x56428be8ffd3 <unknown>\n#6 0x56428be66514 <unknown>\n#7 0x56428be67505 <unknown>\n#8 0x56428c0f4e2e <unknown>\n#9 0x56428c10a886 <unknown>\n#10 0x56428c0f5d75 <unknown>\n#11 0x56428c10bd94 <unknown>\n#12 0x56428c0ec8eb <unknown>\n#13 0x56428c126cd8 <unknown>\n#14 0x56428c126e58 <unknown>\n#15 0x56428c140dfd <unknown>\n#16 0x7f76fed38609 start_thread\n",
+        "time" : {
+          "start" : 1629135069466,
+          "stop" : 1629135072389,
+          "duration" : 2923
+        }
+      }, {
+        "uid" : "b317b359e5117a70",
+        "reportUrl" : "https://tankoczi94.github.io/Vizsgaremek/17//#testresult/b317b359e5117a70",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#qc\\-cmp2\\-ui\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az82-15', ip: '10.1.1.100', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.8t9oMy}, goog:chromeOptions: {debuggerAddress: localhost:44063}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: fef47bf43dcdcd672f79b3f0cd1b2879\n*** Element info: {Using=id, value=qc-cmp2-ui}",
+        "time" : {
+          "start" : 1628689097057,
+          "stop" : 1628689109534,
+          "duration" : 12477
+        }
+      }, {
+        "uid" : "b02125106deb375c",
+        "reportUrl" : "https://tankoczi94.github.io/Vizsgaremek/16//#testresult/b02125106deb375c",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az47-289', ip: '10.1.1.29', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x555e39f01a63 <unknown>\n#1 0x555e39c76458 <unknown>\n#2 0x555e39c992e3 <unknown>\n#3 0x555e39c94e9f <unknown>\n#4 0x555e39cceb72 <unknown>\n#5 0x555e39cc8fd3 <unknown>\n#6 0x555e39c9f514 <unknown>\n#7 0x555e39ca0505 <unknown>\n#8 0x555e39f2de2e <unknown>\n#9 0x555e39f43886 <unknown>\n#10 0x555e39f2ed75 <unknown>\n#11 0x555e39f44d94 <unknown>\n#12 0x555e39f258eb <unknown>\n#13 0x555e39f5fcd8 <unknown>\n#14 0x555e39f5fe58 <unknown>\n#15 0x555e39f79dfd <unknown>\n#16 0x7efea3f8f609 start_thread\n",
+        "time" : {
+          "start" : 1628688920634,
+          "stop" : 1628688927647,
+          "duration" : 7013
+        }
+      }, {
+        "uid" : "3e1a75ff6f94d85",
+        "reportUrl" : "https://tankoczi94.github.io/Vizsgaremek/15//#testresult/3e1a75ff6f94d85",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az82-15', ip: '10.1.0.115', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x5630c9f44a63 <unknown>\n#1 0x5630c9cb9458 <unknown>\n#2 0x5630c9cdc2e3 <unknown>\n#3 0x5630c9cd7e9f <unknown>\n#4 0x5630c9d11b72 <unknown>\n#5 0x5630c9d0bfd3 <unknown>\n#6 0x5630c9ce2514 <unknown>\n#7 0x5630c9ce3505 <unknown>\n#8 0x5630c9f70e2e <unknown>\n#9 0x5630c9f86886 <unknown>\n#10 0x5630c9f71d75 <unknown>\n#11 0x5630c9f87d94 <unknown>\n#12 0x5630c9f688eb <unknown>\n#13 0x5630c9fa2cd8 <unknown>\n#14 0x5630c9fa2e58 <unknown>\n#15 0x5630c9fbcdfd <unknown>\n#16 0x7f26ab815609 start_thread\n",
+        "time" : {
+          "start" : 1628688701860,
+          "stop" : 1628688708412,
+          "duration" : 6552
+        }
+      }, {
+        "uid" : "827869f6c589d3c5",
+        "reportUrl" : "https://tankoczi94.github.io/Vizsgaremek/14//#testresult/827869f6c589d3c5",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az82-623', ip: '10.1.0.156', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55a4eb8b4a63 <unknown>\n#1 0x55a4eb629458 <unknown>\n#2 0x55a4eb64c2e3 <unknown>\n#3 0x55a4eb647e9f <unknown>\n#4 0x55a4eb681b72 <unknown>\n#5 0x55a4eb67bfd3 <unknown>\n#6 0x55a4eb652514 <unknown>\n#7 0x55a4eb653505 <unknown>\n#8 0x55a4eb8e0e2e <unknown>\n#9 0x55a4eb8f6886 <unknown>\n#10 0x55a4eb8e1d75 <unknown>\n#11 0x55a4eb8f7d94 <unknown>\n#12 0x55a4eb8d88eb <unknown>\n#13 0x55a4eb912cd8 <unknown>\n#14 0x55a4eb912e58 <unknown>\n#15 0x55a4eb92cdfd <unknown>\n#16 0x7fbd7cf69609 start_thread\n",
+        "time" : {
+          "start" : 1628414938077,
+          "stop" : 1628414944227,
+          "duration" : 6150
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f065ba7f8c59336c.json",
+  "parameterValues" : [ ]
+}
