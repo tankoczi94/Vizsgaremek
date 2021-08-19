@@ -1,0 +1,124 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".ahigh\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az72-989', ip: '10.1.0.181', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.H544sZ}, goog:chromeOptions: {debuggerAddress: localhost:44915}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 411b3c1093ae378b5391b1c62f6da7e2\n*** Element info: {Using=class name, value=ahigh}",
+      "children" : [ {
+        "name" : "navigateBackTest()",
+        "uid" : "eb9ddddafefe5788",
+        "parentUid" : "a211375ddec30675f72d6f4e01684891",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629385023026,
+          "stop" : 1629385038779,
+          "duration" : 15753
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a211375ddec30675f72d6f4e01684891"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".ahigh\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az72-989', ip: '10.1.0.181', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.MU5Btz}, goog:chromeOptions: {debuggerAddress: localhost:42241}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0d602823c8d2256806b1dc16d409e2f5\n*** Element info: {Using=class name, value=ahigh}",
+      "children" : [ {
+        "name" : "logOutTest()",
+        "uid" : "393ef40bf816a9c1",
+        "parentUid" : "2a12586d3b7e4d8450bf6c9dc75c4ecb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629385038793,
+          "stop" : 1629385054299,
+          "duration" : 15506
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2a12586d3b7e4d8450bf6c9dc75c4ecb"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"leftcol\"]/div[1]/h4\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az72-989', ip: '10.1.0.181', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.LaTTBR}, goog:chromeOptions: {debuggerAddress: localhost:45563}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 72fd3a9a8aa8bde6e4c43324cf6de3e0\n*** Element info: {Using=xpath, value=//*[@id=\"leftcol\"]/div[1]/h4}",
+      "children" : [ {
+        "name" : "logInTest()",
+        "uid" : "8bb2410bdfeff7d1",
+        "parentUid" : "f0933568118d3298c57088b96feb14b7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629385066256,
+          "stop" : 1629385081888,
+          "duration" : 15632
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f0933568118d3298c57088b96feb14b7"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[.='Beállítások']\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az72-989', ip: '10.1.0.181', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.DL5mFN}, goog:chromeOptions: {debuggerAddress: localhost:46619}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 1b634a339909ce2bcd59539de0cc0294\n*** Element info: {Using=xpath, value=//a[.='Beállítások']}",
+      "children" : [ {
+        "name" : "testInputField()",
+        "uid" : "2750f8c373ed095e",
+        "parentUid" : "d33bb758f5628200acbd25c5c2d08995",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629385081895,
+          "stop" : 1629385097384,
+          "duration" : 15489
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d33bb758f5628200acbd25c5c2d08995"
+    }, {
+      "name" : "Expected condition failed: waiting for element to be clickable: By.xpath: //a[.='Piszkozatok'] (tried for 10 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "deleteElementTest()",
+        "uid" : "5edce01730d5751a",
+        "parentUid" : "e41656293f82ad3bb88f446294a0e37b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629385100901,
+          "stop" : 1629385117946,
+          "duration" : 17045
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e41656293f82ad3bb88f446294a0e37b"
+    }, {
+      "name" : "Expected condition failed: waiting for element to be clickable: By.xpath: //b[.='A Törzsasztal'] (tried for 10 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "repeatedCommentTest()",
+        "uid" : "df1b4ae923bd3ba4",
+        "parentUid" : "d2df19fcc73c714e706329023a5ccebd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629385117954,
+          "stop" : 1629385133428,
+          "duration" : 15474
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "insertCommentTest()",
+        "uid" : "2dd4bad06cf4b238",
+        "parentUid" : "d2df19fcc73c714e706329023a5ccebd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629385133431,
+          "stop" : 1629385148890,
+          "duration" : 15459
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d2df19fcc73c714e706329023a5ccebd"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
