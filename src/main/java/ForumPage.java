@@ -1,6 +1,7 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
@@ -16,6 +17,7 @@ public class ForumPage {
     private By jumpToNextPageButton = By.xpath("//td[@id='maintd']/form[1]//img[@alt='10>']");
     private By actualPage = By.xpath("//td[@id='maintd']/form[1]//b");
     private By firstPageButton = By.xpath("//td[@id='maintd']/form[1]//img[@alt='<<']");
+    private By firstArticleButton = By.xpath("//*[@id=\"content1col\"]/tbody/tr[2]/td[2]/a");
 
     public ForumPage(WebDriver driver){
         this.driver = driver;
@@ -69,5 +71,11 @@ public class ForumPage {
                         .getText());
         driver.findElement(firstPageButton).click();
         return lastPage;
+    }
+    public ArticlePage clickOnFirstArticle(){
+        wait = new WebDriverWait(driver,10);
+        wait.until(ExpectedConditions.elementToBeClickable(firstArticleButton));
+        driver.findElement(firstArticleButton).click();
+        return new ArticlePage(driver);
     }
 }

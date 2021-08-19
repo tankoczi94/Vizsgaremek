@@ -8,6 +8,7 @@ public class TopicPage {
     private WebDriverWait wait;
     private By userNameField = By.xpath("//*[@id=\"leftcol\"]/div[1]/h4");
     private By settingsButton = By.xpath("//a[.='Beállítások']");
+    private By firstForumPageButton = By.xpath("//b[.='A Törzsasztal']");
 
     public TopicPage(WebDriver driver){
         this.driver = driver;
@@ -21,5 +22,11 @@ public class TopicPage {
     public SettingsPage clickOnSettings(){
         driver.findElement(settingsButton).click();
         return new SettingsPage(driver);
+    }
+    public ForumPage clickFirstForumPageButton(){
+        wait = new WebDriverWait(driver,10);
+        wait.until(ExpectedConditions.elementToBeClickable(firstForumPageButton));
+        driver.findElement(firstForumPageButton).click();
+        return new ForumPage(driver);
     }
 }

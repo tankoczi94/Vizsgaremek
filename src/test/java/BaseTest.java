@@ -8,6 +8,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
+import java.util.concurrent.TimeUnit;
+
 
 public class BaseTest {
     private WebDriver driver;
@@ -20,10 +22,11 @@ public class BaseTest {
         options.addArguments("--start-maximized");
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
-        //options.addArguments("--headless");
+        options.addArguments("--headless");
         options.addArguments("--incognito");
         driver = new ChromeDriver(options);
         driver.get("https://forum.index.hu/");
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
 
         homePage = new HomePage(driver);
@@ -32,7 +35,7 @@ public class BaseTest {
     }
     @AfterEach
     public void tearDown(){
-        //driver.quit();
+        driver.quit();
     }
 
     public static void main(String[] args) {
