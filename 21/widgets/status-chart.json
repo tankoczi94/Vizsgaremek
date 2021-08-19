@@ -1,0 +1,121 @@
+[ {
+  "uid" : "50180e446d22af74",
+  "name" : "validEmailInvalidPassword()",
+  "time" : {
+    "start" : 1629350802876,
+    "stop" : 1629350812890,
+    "duration" : 10014
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "541af4b64deb27c3",
+  "name" : "repeatedCommentTest()",
+  "time" : {
+    "start" : 1629350836816,
+    "stop" : 1629350853183,
+    "duration" : 16367
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc437afe52ea5de3",
+  "name" : "scrollThreeTimesTest()",
+  "time" : {
+    "start" : 1629350752902,
+    "stop" : 1629350764297,
+    "duration" : 11395
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b7fa4d7f22e6e691",
+  "name" : "testInputField()",
+  "time" : {
+    "start" : 1629350821215,
+    "stop" : 1629350831738,
+    "duration" : 10523
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "49b1d8bd108c5a8e",
+  "name" : "navigateBackTest()",
+  "time" : {
+    "start" : 1629350770824,
+    "stop" : 1629350783978,
+    "duration" : 13154
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f9e0319e754bfb9a",
+  "name" : "listElements()",
+  "time" : {
+    "start" : 1629350764301,
+    "stop" : 1629350770819,
+    "duration" : 6518
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1242fe6ce2f51449",
+  "name" : "logOutTest()",
+  "time" : {
+    "start" : 1629350783981,
+    "stop" : 1629350794907,
+    "duration" : 10926
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b077af0259329961",
+  "name" : "logInTest()",
+  "time" : {
+    "start" : 1629350812893,
+    "stop" : 1629350821207,
+    "duration" : 8314
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "52f9f3375435e89c",
+  "name" : "scrollBiggerThanActual()",
+  "time" : {
+    "start" : 1629350719202,
+    "stop" : 1629350752806,
+    "duration" : 33604
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6ffce28f6176c7b",
+  "name" : "testPrivacyStatementContent()",
+  "time" : {
+    "start" : 1629350831746,
+    "stop" : 1629350836806,
+    "duration" : 5060
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6f518d31a678cc13",
+  "name" : "logInNegativeTest()",
+  "time" : {
+    "start" : 1629350794915,
+    "stop" : 1629350802871,
+    "duration" : 7956
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d40e11518c83515",
+  "name" : "insertCommentTest()",
+  "time" : {
+    "start" : 1629350853191,
+    "stop" : 1629350879032,
+    "duration" : 25841
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

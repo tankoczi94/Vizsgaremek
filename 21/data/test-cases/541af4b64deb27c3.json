@@ -1,0 +1,87 @@
+{
+  "uid" : "541af4b64deb27c3",
+  "name" : "repeatedCommentTest()",
+  "fullName" : "RepeatedInputTest.repeatedCommentTest",
+  "historyId" : "afe008c175e4a1589ad5da9ed7d76f71",
+  "time" : {
+    "start" : 1629350836816,
+    "stop" : 1629350853183,
+    "duration" : 16367
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1629350836816,
+      "stop" : 1629350841721,
+      "duration" : 4905
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629350853111,
+      "stop" : 1629350853183,
+      "duration" : 72
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az83-229"
+  }, {
+    "name" : "thread",
+    "value" : "3031@fv-az83-229.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "RepeatedInputTest"
+  }, {
+    "name" : "testClass",
+    "value" : "RepeatedInputTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "repeatedCommentTest"
+  }, {
+    "name" : "suite",
+    "value" : "RepeatedInputTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "541af4b64deb27c3.json",
+  "parameterValues" : [ ]
+}

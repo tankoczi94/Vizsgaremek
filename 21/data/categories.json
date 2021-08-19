@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//td[@id='maintd']/form[1]//img[@alt='>>']\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-229', ip: '10.1.0.128', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.2hkiCb}, goog:chromeOptions: {debuggerAddress: localhost:38477}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3891ab46d3c31013ab29296522943d8b\n*** Element info: {Using=xpath, value=//td[@id='maintd']/form[1]//img[@alt='>>']}",
+      "children" : [ {
+        "name" : "scrollBiggerThanActual()",
+        "uid" : "52f9f3375435e89c",
+        "parentUid" : "648e28334be0a22f43cb66cbfe2564ed",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629350719202,
+          "stop" : 1629350752806,
+          "duration" : 33604
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "648e28334be0a22f43cb66cbfe2564ed"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[contains(@class,'art_owner')]/strong[contains(text(),'tanko94')]/ancestor::tbody[1]//p\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-229', ip: '10.1.0.128', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.16dVNl}, goog:chromeOptions: {debuggerAddress: localhost:40861}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 5cd90d662cada65c877f1357a398d3ef\n*** Element info: {Using=xpath, value=//a[contains(@class,'art_owner')]/strong[contains(text(),'tanko94')]/ancestor::tbody[1]//p}",
+      "children" : [ {
+        "name" : "insertCommentTest()",
+        "uid" : "9d40e11518c83515",
+        "parentUid" : "180779f09ea174886c5789c370dfec26",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629350853191,
+          "stop" : 1629350879032,
+          "duration" : 25841
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "180779f09ea174886c5789c370dfec26"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
