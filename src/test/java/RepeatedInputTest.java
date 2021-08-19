@@ -8,20 +8,9 @@ import java.util.Scanner;
 public class RepeatedInputTest extends BaseTest{
     @Test
     public void insertCommentTest(){
-        String text1 = "";
+        String text1 = "Hello";
         TopicPage topicPage = homePage.logIn();
-        try {
-            File myObj = new File("privacystatement.txt");
-            Scanner myReader = new Scanner(myObj);
-            while (myReader.hasNextLine()) {
-                String data = myReader.nextLine();
-                text1+=data;
-            }
-            myReader.close();
-        } catch (FileNotFoundException e) {
-            System.out.println("There is no such file.");
-            e.printStackTrace();
-        }
+
 
         ForumPage forumPage = topicPage.clickFirstForumPageButton();
 
@@ -29,9 +18,15 @@ public class RepeatedInputTest extends BaseTest{
 
         EditArticlePage editArticlePage = articlePage.clickCommentButton();
         editArticlePage.clearTextArea();
-        editArticlePage.enterComment(text1);
+        editArticlePage.enterComment(text1+serial);
         ArticlePage articlePage1 = editArticlePage.sendInComment();
-        Assertions.assertEquals(articlePage1.getCommentText(),text1);
+        if(!editArticlePage.getErrorText().isEmpty()){
+            serial++;
+            editArticlePage.clearTextArea();
+            editArticlePage.enterComment(text1+serial);
+            ArticlePage articlePage2 = editArticlePage.sendInComment();
+        }
+        Assertions.assertEquals(text1+serial,articlePage1.getCommentText());
     }
     @Test
     public void repeatedCommentTest(){

@@ -9,7 +9,7 @@ public class LoginTest extends BaseTest{
     @Test
     public void logInTest(){
         TopicPage topicPage = homePage.logIn();
-        Assertions.assertEquals("tanko94", topicPage.getUserName());
+        Assertions.assertEquals("tanko1994", topicPage.getUserName());
     }
     @Test
     public void logInNegativeTest(){

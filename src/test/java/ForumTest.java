@@ -25,7 +25,7 @@ public class ForumTest extends BaseTest{
     public void scrollBiggerThanActual(){
         homePage.acceptPrivacyStatement();
         ForumPage forumPage = homePage.clickFirstForumPageButton();
-        forumPage.scrollThroughTopics(15555);
+        //forumPage.scrollThroughTopics(15555);
         Assertions.assertEquals(1498,forumPage.getNumberOfLastPage());
     }
 }

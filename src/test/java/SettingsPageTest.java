@@ -6,7 +6,11 @@ public class SettingsPageTest extends BaseTest{
     public void testInputField(){
         TopicPage topicPage = homePage.logIn();
         SettingsPage settingsPage = topicPage.clickOnSettings();
-        settingsPage.writeToIntroduction("abc");
-        Assertions.assertEquals("abc", settingsPage.getContentOfIntroduction());
+        for (int i = 0; i < 3; i++) {
+            settingsPage.writeToIntroduction("abc"+serial);
+            serial++;
+        }
+
+        Assertions.assertEquals("abc"+(--serial), settingsPage.getContentOfIntroduction());
     }
 }
